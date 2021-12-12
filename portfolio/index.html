@@ -4,10 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <title>Andreas Portfolio Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        </head>
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />   -->
+        
+        <link rel="stylesheet" href="/styles.css">
+    
+    </head> 
         <body>
             <header>
                 <div class="logo">
@@ -29,16 +32,16 @@
 
             <!-- INTRODUCTION -->
             <section class="intro" id="home">
-                <h1 class="intro__title">
-                    Hi, I am <strong>Andreas</strong>
+                <h1 class="section__title section__title--intro" class="intro__title">
+                    Hi, I am <strong class="section__title--intro-strong">Andreas</strong>
                 </h1>
-                <p class="intro__p">front-end dev</p>
+                <p class="section__subtitle section__subtitle--intro">front-end dev</p>
                 <img src="/images/Andreas.jpg" alt="">
             </section>
 
             <!-- MY SERVICES -->
             <section class="my-services" id="services">
-                <h2 class="my-services__title">What I do</h2>
+                <h2 class="section__title" class="my-services-title">What I do</h2>
                 <div class="services">
                     <div class="service">
                         <h3>Designing + developing</h3>
@@ -70,11 +73,10 @@
 
             <!-- About me -->
             <section class="aboutMe" id="about">
-                <h2 class="aboutMeTitle">About Me</h2>
-                <p class="AboutMeP">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    In eius voluptates tempore quasi ab optio distinctio est,
-                     dicta et suscipit totam magnam dolor fugiat quaerat? 
-                     Fugiat officiis et iusto sed.</p>
+                <h2 class="section__title">About Me</h2>
+                <p class="section__subtitle section__subtitle--about" id="aboutme">
+                    Designer & Developer based out of Tallinn, Estonia
+                </p>
 
                 
                 <div class="aboutMe__Body">
@@ -87,7 +89,7 @@
             <!-- My Work -->
             <section class="myWork" id="work">
                 <h2 class="myWorkTitle"></h2>
-                <p class="myWorkP"></p>
+                <p class="section__subtitle" id="myWorkParagraph"></p>
 
                 <div class="portfolio">
                      <!-- portfolio 1 -->
